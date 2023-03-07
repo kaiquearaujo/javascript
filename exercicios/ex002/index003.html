@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira aula de JavaScript</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            color: white;
+            font: normal 20px arial;
+        }
+
+        h1 {
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>olá, mundo!!</h1>
+    <p>Me livrei da maldição!!</p>
+    <script>
+        var n1 = Number(window.prompt('digite um numero:'))
+        var n2 = Number(window.prompt('digite outro numero:'))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é ${s}`)
+
+
+
+        /*var s = 'JavaScript'
+        'Estou aprendendo s' //não imtrepolação
+        'Estou aprendendo ' + s //usa concatenação
+        ´Estou aprendendo ${s}´ //usa template string (templete string delimita-se com uso da crase (``)
+                    EXEMPLO (TERMINAL)
+        var nome = José
+        var idade = 23
+        var nota = 6.5
+        'O aluno ' + nome + 'com ' + idade + 'anos, tirou a nota ' + nota 
+        `O aluno ${nome} com ${idade} anos, tirou a nota ${nota}`
+        */
+    </script>
+</body>
+</html>
